@@ -25,7 +25,3 @@ This project is a simple implementation of the Transformer model from scratch us
 
 - This project is not optimized for production use.
 - Feel free to experiment and modify the code for your learning purposes.
-
-## Author
-
-* Rishi
