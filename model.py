@@ -188,3 +188,10 @@ class Transformer(nn.Module):
         self.src_pos = src_pos
         self.tgt_pos = tgt_pos
         self.projection_layer = projection_layer
+
+    def encode(self, src, src_mask):
+        src = self.src_embed(src)
+        src = self.src_pos(src)
+        return self.encoder(src, src_mask)
+
+    
