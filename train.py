@@ -21,3 +21,7 @@ def get_tokenizer(config, dataset, language):
     else:
         tokenizer = Tokenizer.from_file(str(tokenizer_path))
     return tokenizer
+
+def get_examples(dataset, language):
+    for item in dataset:
+        yield item['translation'][language]
