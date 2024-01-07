@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is a simple implementation of the Transformer model from scratch using Python. It is intended for educational purposes to deepen understanding of the Transformer architecture.
+This project is a simple implementation of the Transformer model from scratch using Python. It is intended for educational purposes to deepen understanding of the Transformer architecture. Feel free to experiment and modify the code for your learning purposes.
 
 ## Usage
 
@@ -20,10 +20,9 @@ This project is a simple implementation of the Transformer model from scratch us
 2. Run the main script:
 
     ```bash
-    python main.py
+    python train.py
     ```
 
 ## Notes
 
 - This project is not optimized for production use.
-- Feel free to experiment and modify the code for your learning purposes.
