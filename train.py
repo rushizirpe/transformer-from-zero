@@ -3,6 +3,7 @@ from tqdm import tqdm
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader, random_split
 import os
+import warnings
 
 from dataset import BilingualDataset, causal_mask
 from model import build_transformer
@@ -148,9 +149,6 @@ def train_model(config):
             'optimizer_state_dict': optimizer.state_dict(),
             'global_step': global_step
         }, model_filename)
-
-
-import warnings
 
 torch.cuda.empty_cache()
 warnings.filterwarnings('ignore')
