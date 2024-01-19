@@ -1,5 +1,5 @@
 
-# Transformer from Scratch (In Progress...)
+# Transformer from Scratch  (In Progress...)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gFwoNGle2fQnWdDQXflU7xugKSD-q3xu)
 
